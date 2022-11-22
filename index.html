@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>George Sirinidis</title>
+    <meta name="author" content="name" />
+    <meta name="description" content="description here" />
+    <meta name="keywords" content="keywords,here" />
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(["_setAccount", "UA-XXXXXXXX-Y"]);
+      _gaq.push(["_trackPageview"]);
+      (function () {
+        var ga = document.createElement("script");
+        ga.type = "text/javascript";
+        ga.async = true;
+        ga.src =
+          ("https:" == document.location.protocol
+            ? "https://ssl"
+            : "http://www") + ".google-analytics.com/ga.js";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+
+    <link href="https://vjs.zencdn.net/7.5.5/video-js.css" rel="stylesheet" />
+
+    <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+    <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+  </head>
+  <body data-barba="wrapper">
+    <main data-barba="container">
+      <div class="container">
+        <div class="header">
+          <div class="logoContainer">
+            <div class="logo">
+              <object type="image/svg+xml" data="logosiri2.svg"></object>
+            </div>
+          </div>
+
+          <div id="header-content">
+            <span class="menu">
+              <a id="act" href="index.html">HOME</a>
+            </span>
+          </div>
+        </div>
+        <div class="item video">
+          <div class="overlay">VIDEO</div>
+          <video
+            class="myvideo"
+            loop=""
+            preload="none"
+            height="auto"
+            src="video.mp4"
+            poster=""
+          ></video>
+        </div>
+
+        <a class="item collections" href="collections.html">COLLECTIONS</a>
+        <a class="item custom" href="custom.html">CUSTOM</a>
+        <a class="item about" href="about.html">ABOUT</a>
+        <a class="item shop" href="shop.html">SHOP</a>
+        <div class="item footer"></div>
+      </div>
+    </main>
+    <a id="credits" target="_blank" href="mailto:dmakrakis@live.com"
+      >developed by dimitrismakrakis</a
+    >
+  </body>
+
+  <script type="text/javascript" src="scripts/main.js"></script>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>George Sirinidis</title>
+    <meta name="author" content="name" />
+    <meta name="description" content="description here" />
+    <meta name="keywords" content="keywords,here" />
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link href="https://vjs.zencdn.net/7.5.5/video-js.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+    <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+  </head>
+  <body data-barba="wrapper">
+    <main>
+      <div class="campaign_container">
+        <div class="header">
+          <div class="logoContainer">
+            <div class="logo">
+              <object type="image/svg+xml" data="logosiri2.svg"></object>
+            </div>
+          </div>
+
+          <div id="header-content">
+            <span class="menu"
+              ><a href="index.html">HOME</a>
+              <a href="collections.html">COLLECTIONS</a>
+              <a href="custom.html"> CUSTOM</a>
+              <a id="act" href="campaign.html">CAMPAIGN</a>
+              <a href="about.html">ABOUT</a> <a href="shop.html">SHOP</a>
+              <a href="index.html">HOME</a></span
+            >
+          </div>
+        </div>
+        <div class="camp_item campaign" data-barba="container">
+          <video
+            style="z-index: 0"
+            id="campaign-video"
+            class="video-js vjs-big-play-centered vjs-16-9"
+            controls
+            preload="auto"
+            poster="MY_VIDEO_POSTER.jpg"
+            data-setup="{}"
+          >
+            <source src="video.mp4" type="video/mp4" />
+            <p class="vjs-no-js">
+              To view this video please enable JavaScript, and consider
+              upgrading to a web browser that
+              <a href="https://videojs.com/html5-video-support/" target="_blank"
+                >supports HTML5 video</a
+              >
+            </p>
+          </video>
+
+          <script src="https://vjs.zencdn.net/7.5.5/video.js"></script>
+        </div>
+      </div>
+    </main>
+    <a id="credits" target="_blank" href="mailto:dmakrakis@live.com"
+      >developed by dimitrismakrakis</a
+    >
+  </body>
+</html>
